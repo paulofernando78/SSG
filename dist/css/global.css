@@ -1,0 +1,28 @@
+:root {
+  --background-color: green
+}
+
+body {
+   background-color: var(--background-color);
+}
+
+.layout {
+ display: flex;
+ flex-direction: column;
+}
+
+header {
+  border: 1px solid
+}
+
+nav {
+  border: 1px solid
+}
+
+main {
+  border: 1px solid
+}
+
+footer {
+  border: 1px solid
+}
