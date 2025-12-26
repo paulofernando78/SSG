@@ -1,0 +1,4 @@
+{
+  "buildCommand": "npm ruin build",
+  "outputDirectory": "dist"
+}
