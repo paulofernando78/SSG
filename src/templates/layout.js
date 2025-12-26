@@ -12,7 +12,13 @@ export function layout({ title, content }) {
         <header>
           <a href="/">LOGO</a>
         </header>
-        <nav></nav>
+        <nav>
+          <ul>
+            <li>
+              <a href="">radio + quiz</a>
+            </li>
+          </ul>
+        </nav>
         <main>${content}</main>
         <footer>
           &copy; 2025 - All rights reserved.
