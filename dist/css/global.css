@@ -1,28 +1,60 @@
+@import "./imports/reset.css";
+@import "./imports/typography.css";
+@import "./imports/colors.css";
+
 :root {
-  --background-color: blue
+  --bg: #121212;
+  /* --background-color: #121212 */
+  --text: #e5e5e5;
+  --border: 1px solid lightgray;
+  --border-radius: 5px;
+  --padding: 5px;
+  --gap: 5px;
 }
 
 body {
-   background-color: var(--background-color);
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: "Montserrat", sans-serif;
 }
 
 .layout {
- display: flex;
- flex-direction: column;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  min-height: 100dvh;
+}
+
+header,
+nav,
+main,
+footer {
+  border: var(--border);
+  border-radius: var(--border-radius);
+  padding: var(--padding);
+}
+
+.title {
+  font-family: "BBH Bartle", sans-serif;
+  color: var(--text);
+  font-size: 1rem;
 }
 
 header {
-  border: 1px solid
+  display: flex;
+  justify-content: space-between;
 }
 
 nav {
-  border: 1px solid
+  display: none;
+}
+
+nav.is-open {
+  display: block;
 }
 
 main {
-  border: 1px solid
-}
-
-footer {
-  border: 1px solid
+  flex-grow: 1;
 }

@@ -1,24 +1,41 @@
 
     <!DOCTYPE html>
+    <script src="/js/nav.js" defer></script>
+    
     <html>
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>Home</title>
-        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/global.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=BBH+Bartle&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
       </head>
       <body>
-        <header>
-          <a href="/">LOGO</a>
-        </header>
-        <nav></nav>
-        <main>
+        <div class="layout">
+          <header>
+            <button id="menu-btn">menu</button>
+            <a href="/" class="title">Full-stack lab</a>
+          </header>
+          <nav id="nav-bar">
+            <ul>
+              <span>HTML</span>
+              <li>
+                <a href="">radio + quiz</a>
+              </li>
+              <span>Javascript</span>
+              <li>
+                <a href="">radio + quiz</a>
+              </li>
+            </ul>
+          </nav>
+          <main>
     <h1>Home</h1>
     <p>Teste</p>
   </main>
-        <footer>
-          &copy; 2025 - All rights reserved.
-        </footer>
+          <footer>&copy; 2025 - All rights reserved.</footer>
+        </div>
       </body>
     </html>
   
